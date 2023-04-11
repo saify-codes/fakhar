@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIOGRAPHY</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-none">
+      <div class="container-fluid">
+        <a href="index.html"><img src="image/LOGO-01-.png" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="interest.html">Interests</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Travel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact us.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex input-group w-auto">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Type query"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-dark"
+              type="button"
+              data-mdb-ripple-color="dark"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+    <!-- main start -->
+    <!-- travel section start -->
+    <!-- Carousel wrapper -->
+    <div class="container">
+      <div class="row">
+        <div
+          id="carouselBasicExample"
+          class="carousel slide carousel-fade"
+          data-mdb-ride="carousel"
+        >
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-mdb-target="#carouselBasicExample"
+              data-mdb-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselBasicExample"
+              data-mdb-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselBasicExample"
+              data-mdb-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <!-- Inner -->
+          <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+              <img
+                src="image/taravel/img1.jpg"
+                class="d-block w-100"
+                alt="Sunset Over the City"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>UK AIRPORT</h5>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                </p>
+              </div>
+            </div>
+            <!-- Single item -->
+            <div class="carousel-item">
+              <img
+                src="image/taravel/img2.jpg"
+                class="d-block w-100"
+                alt="Canyon at Nigh"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <!-- Single item -->
+            <div class="carousel-item">
+              <img
+                src="image/taravel/img3.jpg"
+                class="d-block w-100"
+                alt="Cliff Above a Stormy Sea"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Inner -->
+          <!-- Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-mdb-target="#carouselBasicExample"
+            data-mdb-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-mdb-target="#carouselBasicExample"
+            data-mdb-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="text-center text-secondary" style="font-size: 5em">
+          Travel
+        </h2>
+        <h6 class="text-center">MY Travel Experience</h6>
+      </div>
+      <div class="row">
+        <p class="text-dark">
+          Traveling is an incredibly enriching experience that allows
+          individuals to explore different cultures, traditions, and ways of
+          life. Whether it's a short weekend trip or a long-term adventure,
+          traveling can broaden one's perspectives and create unforgettable
+          memories. Traveling allows people to step outside of their comfort
+          zones, challenge themselves, and discover new things about themselves
+          and the world around them.
+        </p>
+        <p class="text-dark">
+          One of the most exciting aspects of traveling is the opportunity to
+          try new foods and flavors. Each destination has its own unique
+          culinary offerings that reflect the local culture and history.
+          Sampling the local cuisine is a great way to immerse oneself in a new
+          place and gain a deeper understanding of its people and traditions.
+        </p>
+        <p class="text-dark">
+          Traveling also offers the chance to explore different landscapes and
+          natural wonders. From the snow-capped mountains of the Alps to the
+          white sandy beaches of the Caribbean, there are endless destinations
+          to choose from. Hiking, camping, and exploring the great outdoors can
+          be incredibly rewarding and can create lifelong memories.
+        </p>
+        <p class="text-dark">
+          Overall, traveling is an incredible way to learn, grow, and experience
+          life to the fullest. It offers the opportunity to break away from
+          daily routines and explore new destinations, cultures, and ways of
+          life. Whether it's for adventure, relaxation, or education, traveling
+          can provide endless opportunities for personal growth and discovery.
+        </p>
+      </div>
+    </div>
+    <!-- Carousel wrapper -->
+    <!-- video start -->
+    <div class="container my-5">
+      <iframe
+        class="m-auto d-block"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/es4x5R-rV9s"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <!-- video end -->
+    <!-- travel section end -->
+    <!-- main end -->
+    <!-- footer Start -->
+    <section>
+      <!-- Footer -->
+      <footer class="bg-secondary text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">your name</h5>
+              <p>
+                Thank you for taking the time to explore my autobiography
+                website. I hope my story has inspired you in some way and given
+                you a deeper understanding of who I am. Please feel free to
+                contact me if you have any questions or if you would like to
+                share your own experiences.
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Latest Blog</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Art Gallery in UK</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">A UK Constellation</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Road Trip</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Let's Talk</h5>
+              <p>
+                A small river named Duden flows by their place and supplies.
+              </p>
+              <div class="social_icons">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+                <i class="fa-brands fa-whatsapp fa-2x"></i>
+                <i class="fa-brands fa-instagram fa-2x"></i>
+              </div>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          &copy;2023 All rights reserved
+          <a class="text-white" href="https://mdbootstrap.com/">name.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </section>
+    <!-- footer end -->
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+    ></script>
+  </body>
+</html>

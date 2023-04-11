@@ -1,0 +1,38 @@
+.social_icons *{
+    margin-right: .5em;
+}
+.work{
+    text-align: center;
+    color: lightgray;
+}
+p{
+    color: lightgray;
+}
+*{
+    font-family:'Times New Roman';
+}
+.img:first-child{
+    clip-path: square (0% 100%, 50% 0, 100% 100%) ;
+    width: 300px;
+    height: 300px;
+    float: left;
+    shape-outside: square (0% 100%, 50% 0, 100% 100%);
+    shape-margin: 20px;
+    transition: 1s ease;
+    
+}
+
+.img:first-child:hover{
+    clip-path: circle(50% at 50% 50%) ;
+    width: 600px;
+    height: 600px;
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    -webkit-aspect-ratio: 1/1;
+    shape-outside: circle(50% at 50% 50%);
+    shape-margin: 20px;
+    
+}
+.btn{
+    font-family:Roboto;
+}
